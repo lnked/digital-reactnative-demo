@@ -1,1 +1,1 @@
-export { form } from './js/hocs/form';
+export { form } from './form';
