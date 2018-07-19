@@ -2,7 +2,7 @@ import { View } from 'react-native';
 import { Button } from '@dormakaba/digital-reactnative-visual';
 import React, { Component } from 'react';
 import { Field } from 'react-final-form';
-import { form, Textfield } from '../digital-reactnative-client';
+import { form, validate, Textfield } from '../digital-reactnative-client';
 
 export class UsingForm extends Component {
   render() {
@@ -14,7 +14,7 @@ export class UsingForm extends Component {
 
     return (
       <View>
-        <Textfield name="bio" />
+        <Textfield label="bio" name="bio" />
 
         <Button primary onPress={handleSubmit}>
           send
@@ -25,6 +25,9 @@ export class UsingForm extends Component {
 }
 
 export default form({
+  validate: validate({
+    bio: 'required',
+  }),
   onSubmit: values => {
     console.warn(values);
   },
