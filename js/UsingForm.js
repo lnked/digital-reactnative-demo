@@ -8,10 +8,6 @@ export class UsingForm extends Component {
   render() {
     const { handleSubmit } = this.props;
 
-    const callback = (...args) => {
-      console.warn(...args);
-    };
-
     return (
       <View>
         <Textfield label="bio" name="bio" />
