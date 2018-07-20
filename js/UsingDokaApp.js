@@ -1,7 +1,7 @@
 import { View } from 'react-native';
 import { Text } from '@dormakaba/digital-reactnative-visual';
 import React, { Component } from 'react';
-import { DokaApp, AppState, i18n } from '../digital-reactnative-client';
+import { DokaApp, AppState, i18n } from '@dormakaba/digital-reactnative-client';
 
 i18n.init({
   fallbackLng: 'en',

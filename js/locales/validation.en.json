@@ -1,0 +1,55 @@
+{
+  "alphaNumeric": "should be alphanumeric.",
+  "duplicate": "already exists.",
+  "formatEmail": "should be an email address.",
+  "formatZipCode": "should be a valid zip code.",
+  "fulfillPasswordRule":
+    "should have a minimum length of 8 characters and include at least one capital letter, number or special character. May not contain sequences of three or more repeated characters.",
+  "inFuture": "has to be in the future.",
+  "inPast": "has to be in the past.",
+  "isDate": "has to be a date.",
+  "isInt": "is not a whole number.",
+  "isNumeric": "is not a number.",
+  "isPrice": "is not a valid currency format.",
+  "isRequired": "is required.",
+  "isUnique": "already exists.",
+  "lengthBetween": "should have a length between {{minlength}} and {{maxlength}}.",
+  "lettersOnly": "should contain letters only.",
+  "maxLength": "should not exceed {{maxlength}} characters.",
+  "minLength": "should have a minimum length of {{minlength}}.",
+  "phoneNumber": "should be a valid phone number.",
+  "phoneNumberExplicit": "may only contain digits, plus, minus, spaces and parenthesis.",
+  "pinNumberExplicit":
+    "is required. Please use between {{minlength}}-{{maxlength}} characters. (numerals 0-9).",
+  "pinNumberMax": "is too long. Please use max. {{maxlength}} characters. (numerals 0-9).",
+  "pinNumberMin": "is too short. Please use min. {{minlength}} characters. (numerals 0-9).",
+  "pinNumberNumeric":
+    "contains letters or special characters. Please use between {{minlength}}-{{maxlength}} characters. (numerals 0-9).",
+  "alpha": "should contain letters only.",
+  "alpha_num": "$(validation:alphaNumeric)",
+  "between": "should have a length between :min and :max.",
+  "cid_unique_from": "already exists.",
+  "date": "has to be a date.",
+  "email": "should be an email address.",
+  "hex": "can only contain numbers and characters a-f",
+  "integer": "is not a whole number.",
+  "in_future": "has to be in the future.",
+  "in_past": "has to be in the past.",
+  "max": {
+    "numeric": "should not exceed a value of :max.",
+    "string": "should not exceed :max characters."
+  },
+  "min": {
+    "numeric": "should have a minimum value of :min.",
+    "string": "should have a minimum length of :min."
+  },
+  "numeric": "is not a number.",
+  "only_digits": "is not a number.",
+  "password":
+    "should have a minimum length of 8 characters and include at least one capital letter, number or special character. May not contain sequences of three or more repeated characters.",
+  "postal_code": "should be a valid zip code.",
+  "required": "is required.",
+  "required_if": "is required.",
+  "trimfree": "must not start or end with a space.",
+  "unique_from": "already exists."
+}

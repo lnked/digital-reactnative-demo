@@ -1,7 +1,6 @@
 import { View } from 'react-native';
-import { Text } from '@dormakaba/digital-reactnative-visual';
 import React, { Component } from 'react';
-import { Snack, settings } from '../digital-reactnative-client';
+import { Snack, settings } from '@dormakaba/digital-reactnative-client';
 
 settings.set('some.deep', 'ok');
 
